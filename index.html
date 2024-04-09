@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="src/styles/styles.css">
   
   <title>Frontend Mentor | Order summary card</title>
 
@@ -13,33 +14,35 @@
 
     <div class="main-container">
         <img src="src/img/illustration-hero.svg" alt="Hero Section Illustration" class="hero-image">
-        <h1 class="main-title">
-            Order Summary
-        </h1>
-        <p class="main-description">
-            You can now listen to millions of songs, audiobooks, and podcasts on any 
-            device anywhere you like!
-        </p>
-        <div class="main-container__plan">
-            <img src="src/img/icon-music.svg" alt="Music Note Icon" class="music-icon">
-            <div class="plan__price-type">
-                <span class="actual-plan">
-                    Annual Plan
-                </span>
-                <span class="actual-price">
-                    $59.99/year
+        <div class="main-container__content">
+            <h1 class="main-title">
+                Order Summary
+            </h1>
+            <p class="main-description">
+                You can now listen to millions of songs, audiobooks, and podcasts on any 
+                device anywhere you like!
+            </p>
+            <div class="content__plan">
+                <img src="src/img/icon-music.svg" alt="Music Note Icon" class="music-icon">
+                <div class="plan__price-type">
+                    <span class="actual-plan">
+                        Annual Plan
+                    </span>
+                    <span class="actual-price">
+                        $59.99/year
+                    </span>
+                </div>
+                <span class="plan-change">
+                    Change
                 </span>
             </div>
-            <span class="plan-change">
-                Change
+            <button class="btn-payment">
+                Proceed to Payment
+            </button>
+            <span class="cancel-order">
+                Cancel Order
             </span>
         </div>
-        <button class="btn-payment">
-            Proceed to Payment
-        </button>
-        <span class="cancel-order">
-            Cancel Order
-        </span>
     </div>
 </body>
 </html>

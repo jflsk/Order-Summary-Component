@@ -1,0 +1,91 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+/* Variables */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  background-image: url("../img/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+body .main-container {
+  max-width: 100%;
+  margin: 4rem 1.8rem;
+  background-color: white;
+  border-radius: 1.5rem;
+}
+body .main-container .hero-image {
+  width: 100%;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+body .main-container .main-container__content {
+  padding-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body .main-container .main-container__content .main-title {
+  font-size: 21px;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+}
+body .main-container .main-container__content .main-description {
+  margin: 1rem 1.5rem;
+  color: hsl(224, 23%, 55%);
+  text-align: center;
+  line-height: 1.5rem;
+}
+body .main-container .main-container__content .content__plan {
+  width: calc(90% - 29px);
+  margin: 0 1.5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 14px !important;
+  background-color: hsla(225, 100%, 98%, 0.5);
+  border-radius: 0.8rem;
+}
+body .main-container .main-container__content .content__plan .plan__price-type {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.2rem;
+  flex-grow: 2;
+}
+body .main-container .main-container__content .content__plan .plan__price-type .actual-plan {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+body .main-container .main-container__content .content__plan .plan__price-type .actual-price {
+  color: hsl(224, 23%, 55%);
+}
+body .main-container .main-container__content .content__plan .plan-change {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  text-decoration: underline;
+}
+body .main-container .main-container__content .btn-payment {
+  padding: 0.9rem;
+  margin-top: 1.5rem;
+  min-width: 90%;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  border-style: none;
+  box-shadow: 20px 20px 16px hsla(245, 75%, 52%, 0.2);
+}
+body .main-container .main-container__content .cancel-order {
+  margin: 2rem;
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  font-size: 14px;
+}/*# sourceMappingURL=styles.css.map */
