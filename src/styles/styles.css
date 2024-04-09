@@ -18,6 +18,7 @@ body .main-container {
   margin: 4rem 1.8rem;
   background-color: white;
   border-radius: 1.5rem;
+  box-shadow: 20px 20px 24px hsla(245, 75%, 52%, 0.1);
 }
 body .main-container .hero-image {
   width: 100%;
@@ -88,4 +89,35 @@ body .main-container .main-container__content .cancel-order {
   color: hsl(224, 23%, 55%);
   font-weight: 900;
   font-size: 14px;
+}
+
+@media screen and (min-width: 376px) {
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+  }
+  body .main-container {
+    max-width: 400px;
+  }
+  body .main-container .main-container__content {
+    padding: 1.5rem 1.5rem 0 1.5rem;
+  }
+  body .main-container .main-container__content .content__plan .plan-change:hover {
+    color: rgb(118, 108, 241);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  body .main-container .main-container__content .btn-payment:hover {
+    background-color: rgb(118, 108, 241);
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  body .main-container .main-container__content .cancel-order:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+  }
 }/*# sourceMappingURL=styles.css.map */
